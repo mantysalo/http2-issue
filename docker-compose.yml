@@ -1,0 +1,41 @@
+version: "3"
+services:
+  client:
+    build: .
+    environment:
+      - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
+    command: "node --inspect=0.0.0.0:9228 --nolazy client.js"
+    ports:
+      - "9228:9228"
+    networks:
+      - private
+      - public
+    depends_on:
+      - http2-server
+
+  got-client:
+    build: .
+    environment:
+      - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
+    command: "node --inspect=0.0.0.0:9229 --nolazy got-client.js"
+    ports:
+      - "9229:9229"
+    networks:
+      - private
+      - public
+    depends_on:
+      - http2-server
+
+  http2-server:
+    build: .
+    ports:
+      - "3001:3001"
+    command: "node http2-server.js"
+    networks:
+      - public
+
+networks:
+  private:
+    driver: bridge
+  public:
+    driver: bridge
