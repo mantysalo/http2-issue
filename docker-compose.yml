@@ -13,13 +13,26 @@ services:
     depends_on:
       - http2-server
 
-  got-client:
+  got-client-retry-limit-0:
     build: .
     environment:
       - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
-    command: "node --inspect=0.0.0.0:9229 --nolazy got-client.js"
+    command: "node --inspect=0.0.0.0:9229 --nolazy got-client.js 0"
     ports:
       - "9229:9229"
+    networks:
+      - private
+      - public
+    depends_on:
+      - http2-server
+
+  got-client-retry-limit-1:
+    build: .
+    environment:
+      - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
+    command: "node --inspect=0.0.0.0:9230 --nolazy got-client.js 1"
+    ports:
+      - "9230:9230"
     networks:
       - private
       - public

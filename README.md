@@ -15,23 +15,26 @@ docker compose up --build
 
 To simulate a disconnect, run the following command:
 
-`docker network disconnect http2-issue_public http2-issue-client-1 && docker network disconnect http2-issue_public http2-issue-got-client-1 && date -u`
+`docker network disconnect http2-issue_public http2-issue-client-1 && docker network disconnect http2-issue_public http2-issue-got-client-retry-limit-0-1 && docker network disconnect http2-issue_public http2-issue-got-client-retry-limit-1-1 && date -u`
 
 The issue happens consistently after ~16 minutes of going offline.
 
 To reconnect, run the following command:
 
-`docker network connect http2-issue_public http2-issue-client-1 && docker network connect http2-issue_public http2-issue-got-client-1 && date -u`
+`docker network connect http2-issue_public http2-issue-client-1 && docker network connect http2-issue_public http2-issue-got-client-retry-limit-0-1 && docker network connect http2-issue_public http2-issue-got-client-retry-limit-1-1 && date -u`
 
-You will observe that requests originating from `got-client` keep timing out, while the `http2-wrapper` client recovers from the TCP socket timeout.
+You will observe that:
 
-If you set `options.retry.limit` to `0` in `got-client.js` you will observe that both clients recover from the TCP socket timeout.
+- Requests originating from `got-client-retry-limit-1` keep timing out
+- Requests originating from `got-client-retry-limit-0` recover from the TCP socket timeout
+- Requests originating from `http2-wrapper` recover from the TCP socket timeout
 
 ## Extracting logs
 
 To extract logs from the containers, you can run the following commands:
 
-`docker compose logs --no-log-prefix --timestamps got-client > got.txt`
+`docker compose logs --no-log-prefix --timestamps got-client-retry-limit-0 > got.txt`
+`docker compose logs --no-log-prefix --timestamps got-client-retry-limit-1 > got.txt`
 `docker compose logs --no-log-prefix --timestamps client > http2-wrapper.txt`
 
 I have included logs from a single reproduction run in the `logs` directory.
