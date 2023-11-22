@@ -3,6 +3,7 @@ FROM node:latest
 
 RUN apt update
 RUN apt install -y iproute2
+RUN apt install -y net-tools
 
 WORKDIR /app
 

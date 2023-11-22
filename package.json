@@ -5,12 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "docker compose up --build --force-recreate",
+    "disconnect": "docker network disconnect http2-issue_public http2-issue-http2-wrapper-client-1 && docker network disconnect http2-issue_public http2-issue-node-http2-client-1",
+    "connect": "docker network connect http2-issue_public http2-issue-http2-wrapper-client-1 && docker network connect http2-issue_public http2-issue-node-http2-client-1",
+    "logs:node": "docker logs http2-issue-node-http2-client-1",
+    "logs:wrapper": "docker logs http2-issue-http2-wrapper-client-1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "got": "^13.0.0",
     "http2-wrapper": "^2.2.1"
   }
 }

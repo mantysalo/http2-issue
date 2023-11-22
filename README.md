@@ -10,28 +10,28 @@ This repo contains a reproduction of an issue that happens when a TCP socket tim
 ## How to run
 
 ```bash
-docker compose up --build
+npm start
 ```
 
 To simulate a disconnect, run the following command:
 
-`docker network disconnect http2-issue_public http2-issue-client-1 && docker network disconnect http2-issue_public http2-issue-got-client-1 && date -u`
+`npm run disconnect`
 
-The issue happens consistently after ~16 minutes of going offline.
+Requests will begin timing out. Wait for 1 minute or so.
 
 To reconnect, run the following command:
 
-`docker network connect http2-issue_public http2-issue-client-1 && docker network connect http2-issue_public http2-issue-got-client-1 && date -u`
+`npm run connect`
 
-You will observe that requests originating from `got-client` keep timing out, while the `http2-wrapper` client recovers from the TCP socket timeout.
+You will observe that neither the node-http2.js or the http2-wrapper.js clients recover from this, and keep timing out indefinitely.
 
-If you set `options.retry.limit` to `0` in `got-client.js` you will observe that both clients recover from the TCP socket timeout.
+If you remove the large header (`x-header`) from the requests, you will see that both clients error out once the TCP socket is terminated, and the http2-wrapper recovers from the network outage. (node-http2 client doesn't because the client in only created once and there is no recreation logic).
 
 ## Extracting logs
 
 To extract logs from the containers, you can run the following commands:
 
-`docker compose logs --no-log-prefix --timestamps got-client > got.txt`
-`docker compose logs --no-log-prefix --timestamps client > http2-wrapper.txt`
+`npm run logs:node`
+`npm run logs:wrapper`
 
 I have included logs from a single reproduction run in the `logs` directory.

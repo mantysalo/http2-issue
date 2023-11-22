@@ -1,36 +1,48 @@
 version: "3"
 services:
-  client:
+  node-http2-client:
     build: .
     environment:
       - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
-    command: "node --inspect=0.0.0.0:9228 --nolazy client.js"
+    command: "node --inspect=0.0.0.0:9228 --nolazy node-http2.js"
+    sysctls:
+      - net.ipv4.tcp_retries2=6 # This is to make the error appear faster. If removed, the error takes rougly 16 minutes to appear.
+    privileged: true # This is required to be able to set the sysctl
     ports:
       - "9228:9228"
     networks:
       - private
       - public
     depends_on:
-      - http2-server
-
-  got-client:
+      http2-server:
+        condition: service_healthy
+  http2-wrapper-client:
     build: .
     environment:
       - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
-    command: "node --inspect=0.0.0.0:9229 --nolazy got-client.js"
+    command: "node --inspect=0.0.0.0:9229 --nolazy http2-wrapper.js"
+    sysctls:
+      - net.ipv4.tcp_retries2=6 # This is to make the error appear faster. If removed, the error takes rougly 16 minutes to appear.
+    privileged: true # This is required to be able to set the sysctl
     ports:
       - "9229:9229"
     networks:
       - private
       - public
     depends_on:
-      - http2-server
+      http2-server:
+        condition: service_healthy
 
   http2-server:
     build: .
     ports:
       - "3001:3001"
     command: "node http2-server.js"
+    healthcheck:
+      test: ["CMD", "curl", "-k", "https://localhost:3001/"]
+      interval: 1s
+      timeout: 1s
+      retries: 10
     networks:
       - public
 

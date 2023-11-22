@@ -5,15 +5,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "http2-wrapper debug",
+      "name": "node http2 debug",
       "port": 9228,
       "request": "attach",
       "localRoot": "${workspaceFolder}",
       "remoteRoot": "/app/",
-      "type": "node"
+      "type": "node",
+      "skipFiles": []
     },
     {
-      "name": "got-client debug",
+      "name": "http2-wrapper debug",
       "port": 9229,
       "request": "attach",
       "localRoot": "${workspaceFolder}",
