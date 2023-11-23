@@ -12,14 +12,6 @@
       "remoteRoot": "/app/",
       "type": "node",
       "skipFiles": []
-    },
-    {
-      "name": "http2-wrapper debug",
-      "port": 9229,
-      "request": "attach",
-      "localRoot": "${workspaceFolder}",
-      "remoteRoot": "/app/",
-      "type": "node"
     }
   ]
 }

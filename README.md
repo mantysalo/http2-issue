@@ -23,15 +23,10 @@ To reconnect, run the following command:
 
 `npm run connect`
 
-You will observe that neither the node-http2.js or the http2-wrapper.js clients recover from this, and keep timing out indefinitely.
-
-If you remove the large header (`x-header`) from the requests, you will see that both clients error out once the TCP socket is terminated, and the http2-wrapper recovers from the network outage. (node-http2 client doesn't because the client in only created once and there is no recreation logic).
-
 ## Extracting logs
 
 To extract logs from the containers, you can run the following commands:
 
-`npm run logs:node`
-`npm run logs:wrapper`
+`npm run logs`
 
-I have included logs from a single reproduction run in the `logs` directory.
+I have included logs from a single reproduction run in the `logs` directory as well as logs where the socket is destroyed as expected.
