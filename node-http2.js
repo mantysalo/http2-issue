@@ -5,16 +5,9 @@ import crypto from "node:crypto";
 const client = http2.connect("https://http2-server:3001", { rejectUnauthorized: false });
 const timeout = 1000;
 
-client.socket.on("error", (err) => console.error("Socket error:", err));
-client.socket.on("close", () => console.log("Socket closed"));
-
 const randomBytes = crypto.randomBytes(10000).toString("hex");
-function http2Request(timeoutMs) {
+function http2Request() {
   return new Promise((resolve, reject) => {
-    client.setTimeout(timeoutMs, () => {
-      console.error("http2 timeout");
-      reject(new Error("http2 timeout"));
-    });
     const request = client.request({
       ":method": "GET",
       ":path": "/",
@@ -41,7 +34,7 @@ function http2Request(timeoutMs) {
 }
 
 while (true) {
-  http2Request(timeout)
+  http2Request()
     .then((data) => console.log("node http2 body:", data))
     .catch((error) => console.error("node http2 error:", error));
   await setTimeout(timeout + 100);
