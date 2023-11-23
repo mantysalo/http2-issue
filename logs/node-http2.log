@@ -1,0 +1,310 @@
+2023-11-23T17:46:39.045838129Z Hello, World! (From curl)
+2023-11-23T17:46:39.048897379Z Debugger listening on ws://0.0.0.0:9228/8efd54e0-7b3c-4a50-8c3c-cc48e27a3a91
+2023-11-23T17:46:39.048905671Z For help, see: https://nodejs.org/en/docs/inspector
+2023-11-23T17:46:39.098282171Z TLS 8: client _init handle? true
+2023-11-23T17:46:39.098491212Z NET 8: pipe false undefined
+2023-11-23T17:46:39.101926212Z NET 8: connect: find host http2-server
+2023-11-23T17:46:39.102413004Z NET 8: connect: dns options { family: undefined, hints: 32 }
+2023-11-23T17:46:39.102419337Z NET 8: connect: autodetecting
+2023-11-23T17:46:39.104154087Z HTTP2 8: Http2Session client: created
+2023-11-23T17:46:39.104257046Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:39.104613921Z TLS 8: client initRead handle? true buffered? false
+2023-11-23T17:46:39.104618671Z NET 8: _read - n 16384 isConnecting? true hasHandle? true
+2023-11-23T17:46:39.104807962Z NET 8: _read wait for connection
+2023-11-23T17:46:39.105168712Z (node:8) Warning: Setting the NODE_DEBUG environment variable to 'http2' can expose sensitive data (such as passwords, tokens and authentication headers) in the resulting log.
+2023-11-23T17:46:39.105173754Z (Use `node --trace-warnings ...` to show where the warning was created)
+2023-11-23T17:46:39.105781546Z NET 8: connect/multiple: only one address found, switching back to single connection
+2023-11-23T17:46:39.105785587Z NET 8: connect: attempting to connect to 192.168.32.2:3001 (addressType: 4)
+2023-11-23T17:46:39.105985337Z NET 8: afterConnect
+2023-11-23T17:46:39.105996629Z TLS 8: client _start handle? true connecting? false requestOCSP? false
+2023-11-23T17:46:39.106118879Z NET 8: _read - n 16384 isConnecting? false hasHandle? true
+2023-11-23T17:46:39.106125171Z NET 8: Socket._handle.readStart
+2023-11-23T17:46:39.107441212Z TLS 8: client onhandshakedone
+2023-11-23T17:46:39.107446171Z TLS 8: client _finishInit handle? true alpn h2 servername http2-server
+2023-11-23T17:46:39.107460296Z TLS 8: client emit secureConnect. rejectUnauthorized: false, authorizationError: DEPTH_ZERO_SELF_SIGNED_CERT
+2023-11-23T17:46:39.107496962Z HTTP2 8: Http2Session client: setting up session handle
+2023-11-23T17:46:39.107594712Z HTTP2 8: Http2Session client: sending settings
+2023-11-23T17:46:39.107600046Z HTTP2 8: Http2Session client: submitting settings
+2023-11-23T17:46:39.107612837Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:39.107747379Z HTTP2 8: Http2Stream 1 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:39.108618546Z HTTP2 8: Http2Session client: settings received
+2023-11-23T17:46:39.108633837Z HTTP2 8: Http2Stream 1 [Http2Session client]: headers received
+2023-11-23T17:46:39.108636421Z HTTP2 8: Http2Stream 1 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:39.109055504Z node http2 body: Hello, World!
+2023-11-23T17:46:39.109077504Z HTTP2 8: Http2Stream 1 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:39.109229629Z HTTP2 8: Http2Stream 1 [Http2Session client]: destroying stream
+2023-11-23T17:46:40.074883338Z Hello, World! (From curl)
+2023-11-23T17:46:40.213024671Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:40.214193255Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:40.214378838Z HTTP2 8: Http2Stream 3 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:40.218124880Z HTTP2 8: Http2Stream 3 [Http2Session client]: headers received
+2023-11-23T17:46:40.218164755Z HTTP2 8: Http2Stream 3 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:40.219403588Z node http2 body: Hello, World!
+2023-11-23T17:46:40.219469671Z HTTP2 8: Http2Stream 3 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:40.219570796Z HTTP2 8: Http2Stream 3 [Http2Session client]: destroying stream
+2023-11-23T17:46:41.099672755Z Hello, World! (From curl)
+2023-11-23T17:46:41.318302172Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:41.318858755Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:41.319228213Z HTTP2 8: Http2Stream 5 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:41.324290088Z HTTP2 8: Http2Stream 5 [Http2Session client]: headers received
+2023-11-23T17:46:41.325644630Z HTTP2 8: Http2Stream 5 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:41.326244047Z HTTP2 8: Http2Stream 5 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:41.326270922Z HTTP2 8: Http2Stream 5 [Http2Session client]: destroying stream
+2023-11-23T17:46:41.326273130Z node http2 body: Hello, World!
+2023-11-23T17:46:42.128892130Z Hello, World! (From curl)
+2023-11-23T17:46:42.425473506Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:42.425881964Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:42.426175131Z HTTP2 8: Http2Stream 7 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:42.429652089Z HTTP2 8: Http2Stream 7 [Http2Session client]: headers received
+2023-11-23T17:46:42.429715881Z HTTP2 8: Http2Stream 7 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:42.430447172Z HTTP2 8: Http2Stream 7 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:42.430674464Z node http2 body: Hello, World!
+2023-11-23T17:46:42.430942131Z HTTP2 8: Http2Stream 7 [Http2Session client]: destroying stream
+2023-11-23T17:46:43.161784548Z Hello, World! (From curl)
+2023-11-23T17:46:43.528557964Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:43.529206089Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:43.529402506Z HTTP2 8: Http2Stream 9 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:43.531700256Z HTTP2 8: Http2Stream 9 [Http2Session client]: headers received
+2023-11-23T17:46:43.531748881Z HTTP2 8: Http2Stream 9 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:43.532302089Z node http2 body: Hello, World!
+2023-11-23T17:46:43.532328964Z HTTP2 8: Http2Stream 9 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:43.532340714Z HTTP2 8: Http2Stream 9 [Http2Session client]: destroying stream
+2023-11-23T17:46:44.193420131Z Hello, World! (From curl)
+2023-11-23T17:46:44.634035965Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:44.635204882Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:44.635250257Z HTTP2 8: Http2Stream 11 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:44.637997757Z HTTP2 8: Http2Stream 11 [Http2Session client]: headers received
+2023-11-23T17:46:44.638036007Z HTTP2 8: Http2Stream 11 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:44.638596215Z HTTP2 8: Http2Stream 11 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:44.638607048Z node http2 body: Hello, World!
+2023-11-23T17:46:44.639092965Z HTTP2 8: Http2Stream 11 [Http2Session client]: destroying stream
+2023-11-23T17:46:45.233599257Z Hello, World! (From curl)
+2023-11-23T17:46:45.737311257Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:45.738577424Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:45.739040757Z HTTP2 8: Http2Stream 13 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:45.742204882Z HTTP2 8: Http2Stream 13 [Http2Session client]: headers received
+2023-11-23T17:46:45.742238174Z HTTP2 8: Http2Stream 13 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:45.742630549Z node http2 body: Hello, World!
+2023-11-23T17:46:45.742695840Z HTTP2 8: Http2Stream 13 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:45.742703632Z HTTP2 8: Http2Stream 13 [Http2Session client]: destroying stream
+2023-11-23T17:46:46.267639382Z Hello, World! (From curl)
+2023-11-23T17:46:46.841249883Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:46.842882383Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:46.843141966Z HTTP2 8: Http2Stream 15 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:46.845242758Z HTTP2 8: Http2Stream 15 [Http2Session client]: headers received
+2023-11-23T17:46:46.845276716Z HTTP2 8: Http2Stream 15 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:46.845680591Z node http2 body: Hello, World!
+2023-11-23T17:46:46.846110674Z HTTP2 8: Http2Stream 15 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:46.846128758Z HTTP2 8: Http2Stream 15 [Http2Session client]: destroying stream
+2023-11-23T17:46:47.302789300Z Hello, World! (From curl)
+2023-11-23T17:46:47.945153758Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:47.948308842Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:47.948370800Z HTTP2 8: Http2Stream 17 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:47.952065342Z HTTP2 8: Http2Stream 17 [Http2Session client]: headers received
+2023-11-23T17:46:47.952115883Z HTTP2 8: Http2Stream 17 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:47.952556050Z node http2 body: Hello, World!
+2023-11-23T17:46:47.952948550Z HTTP2 8: Http2Stream 17 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:47.953077425Z HTTP2 8: Http2Stream 17 [Http2Session client]: destroying stream
+2023-11-23T17:46:48.343557717Z Hello, World! (From curl)
+2023-11-23T17:46:49.048824550Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:49.049349384Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:49.050462759Z HTTP2 8: Http2Stream 19 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:49.052103009Z HTTP2 8: Http2Stream 19 [Http2Session client]: headers received
+2023-11-23T17:46:49.052139092Z HTTP2 8: Http2Stream 19 [Http2Session client]: emitting stream 'response' event
+2023-11-23T17:46:49.052624425Z HTTP2 8: Http2Stream 19 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T17:46:49.052665342Z node http2 body: Hello, World!
+2023-11-23T17:46:49.052684134Z HTTP2 8: Http2Stream 19 [Http2Session client]: destroying stream
+2023-11-23T17:46:49.368868092Z Hello, World! (From curl)
+2023-11-23T17:46:50.151787634Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:50.151885801Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:50.151939468Z HTTP2 8: Http2Stream 21 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:51.253475301Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:51.253543801Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:51.253612926Z HTTP2 8: Http2Stream 23 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:51.397207385Z  (From curl)
+2023-11-23T17:46:52.355256927Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:52.355387677Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:52.355499135Z HTTP2 8: Http2Stream 25 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:53.411115469Z  (From curl)
+2023-11-23T17:46:53.457160886Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:53.457221719Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:53.457318594Z HTTP2 8: Http2Stream 27 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:54.560242511Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:54.560266178Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:54.560416261Z HTTP2 8: Http2Stream 29 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:55.444511928Z  (From curl)
+2023-11-23T17:46:55.667028095Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:55.667245304Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:55.667267720Z HTTP2 8: Http2Stream 31 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:56.771481679Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:56.771533887Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:56.771683304Z HTTP2 8: Http2Stream 33 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:57.478644221Z  (From curl)
+2023-11-23T17:46:57.875487388Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:57.875770221Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:57.875965471Z HTTP2 8: Http2Stream 35 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:58.978881763Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:46:58.979239430Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:46:58.979550180Z HTTP2 8: Http2Stream 37 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:46:59.517870972Z  (From curl)
+2023-11-23T17:47:00.082086666Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:00.082438541Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:00.082839125Z HTTP2 8: Http2Stream 39 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:01.187876250Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:01.188129209Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:01.188349084Z HTTP2 8: Http2Stream 41 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:01.553414584Z  (From curl)
+2023-11-23T17:47:02.294868584Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:02.295065042Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:02.295248667Z HTTP2 8: Http2Stream 43 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:03.397263043Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:03.397813835Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:03.397847960Z HTTP2 8: Http2Stream 45 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:03.588841585Z  (From curl)
+2023-11-23T17:47:04.503696002Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:04.503992043Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:04.504016377Z HTTP2 8: Http2Stream 47 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:05.606672002Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:05.606875002Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:05.607037294Z HTTP2 8: Http2Stream 49 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:05.615946419Z  (From curl)
+2023-11-23T17:47:06.710267086Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:06.710703836Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:06.711128128Z HTTP2 8: Http2Stream 51 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:07.651904420Z  (From curl)
+2023-11-23T17:47:07.813959253Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:07.814156878Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:07.814469337Z HTTP2 8: Http2Stream 53 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:08.917920421Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:08.918266754Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:08.919021921Z HTTP2 8: Http2Stream 55 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:09.673369171Z  (From curl)
+2023-11-23T17:47:10.024389129Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:10.024796338Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:10.024822504Z HTTP2 8: Http2Stream 57 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:11.131576630Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:11.131833088Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:11.131907755Z HTTP2 8: Http2Stream 59 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:11.691359172Z  (From curl)
+2023-11-23T17:47:12.237541672Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:12.238165339Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:12.238764089Z HTTP2 8: Http2Stream 61 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:13.345189006Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:13.345792881Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:13.346303423Z HTTP2 8: Http2Stream 63 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:13.722285506Z  (From curl)
+2023-11-23T17:47:14.450923632Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:14.451065465Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:14.451360673Z HTTP2 8: Http2Stream 65 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:15.554291965Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:15.554677299Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:15.555168799Z HTTP2 8: Http2Stream 67 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:15.756862924Z  (From curl)
+2023-11-23T17:47:16.656976799Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:16.657227674Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:16.657709799Z HTTP2 8: Http2Stream 69 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:17.760410175Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:17.760812550Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:17.760843216Z HTTP2 8: Http2Stream 71 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:17.788936466Z  (From curl)
+2023-11-23T17:47:18.867845134Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:18.868036425Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:18.868248425Z HTTP2 8: Http2Stream 73 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:19.817607134Z  (From curl)
+2023-11-23T17:47:19.969601551Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:19.969783134Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:19.969787801Z HTTP2 8: Http2Stream 75 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:21.074323051Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:21.074586218Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:21.074910343Z HTTP2 8: Http2Stream 77 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:21.853029552Z  (From curl)
+2023-11-23T17:47:22.182152052Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:22.182656510Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:22.182687010Z HTTP2 8: Http2Stream 79 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:23.287169302Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:23.287464094Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:23.287483886Z HTTP2 8: Http2Stream 81 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:23.888586136Z  (From curl)
+2023-11-23T17:47:24.391412220Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:24.391839261Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:24.391873136Z HTTP2 8: Http2Stream 83 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:25.498004262Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:25.498206553Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:25.498565928Z HTTP2 8: Http2Stream 85 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:25.912761220Z  (From curl)
+2023-11-23T17:47:26.601934596Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:26.602188512Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:26.602291762Z HTTP2 8: Http2Stream 87 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:27.705070180Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:27.705468638Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:27.705496680Z HTTP2 8: Http2Stream 89 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:27.929797388Z  (From curl)
+2023-11-23T17:47:28.808413638Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:28.808884888Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:28.809269013Z HTTP2 8: Http2Stream 91 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:28.961390388Z Hello, World! (From curl)
+2023-11-23T17:47:29.916432375Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:29.916910291Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:29.916948958Z HTTP2 8: Http2Stream 93 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:29.989693708Z Hello, World! (From curl)
+2023-11-23T17:47:31.017817333Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:31.018028917Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:31.018044000Z HTTP2 8: Http2Stream 95 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:31.021692583Z Hello, World! (From curl)
+2023-11-23T17:47:32.052194584Z Hello, World! (From curl)
+2023-11-23T17:47:32.122434334Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:32.122769209Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:32.123107834Z HTTP2 8: Http2Stream 97 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:33.087559543Z Hello, World! (From curl)
+2023-11-23T17:47:33.226333668Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:33.226469710Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:33.226729751Z HTTP2 8: Http2Stream 99 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:34.117501502Z Hello, World! (From curl)
+2023-11-23T17:47:34.330218002Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:34.330697710Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:34.331018377Z HTTP2 8: Http2Stream 101 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:35.154571877Z Hello, World! (From curl)
+2023-11-23T17:47:35.434753294Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:35.434959836Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:35.435095044Z HTTP2 8: Http2Stream 103 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:36.188956711Z Hello, World! (From curl)
+2023-11-23T17:47:36.539411003Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:36.539841628Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:36.539885961Z HTTP2 8: Http2Stream 105 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:37.226744170Z Hello, World! (From curl)
+2023-11-23T17:47:37.643084212Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:37.643579295Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:37.643657878Z HTTP2 8: Http2Stream 107 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:38.264215670Z Hello, World! (From curl)
+2023-11-23T17:47:38.746018629Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:38.746133629Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:38.746145920Z HTTP2 8: Http2Stream 109 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:39.301199254Z Hello, World! (From curl)
+2023-11-23T17:47:39.846891754Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:39.847150754Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:39.847351546Z HTTP2 8: Http2Stream 111 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:40.338276296Z Hello, World! (From curl)
+2023-11-23T17:47:40.948797588Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:40.948850755Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:40.949130588Z HTTP2 8: Http2Stream 113 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:41.373494672Z Hello, World! (From curl)
+2023-11-23T17:47:42.049693422Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:42.049931422Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:42.050696630Z HTTP2 8: Http2Stream 115 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:42.409005339Z Hello, World! (From curl)
+2023-11-23T17:47:43.150758423Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:43.150932881Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:43.150949673Z HTTP2 8: Http2Stream 117 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:43.448969214Z Hello, World! (From curl)
+2023-11-23T17:47:44.255446340Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:44.255568215Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:44.255595965Z HTTP2 8: Http2Stream 119 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:44.483135965Z Hello, World! (From curl)
+2023-11-23T17:47:45.357125590Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:45.357180007Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:45.357362632Z HTTP2 8: Http2Stream 121 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:45.512832299Z Hello, World! (From curl)
+2023-11-23T17:47:46.463882757Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T17:47:46.464063341Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T17:47:46.464093049Z HTTP2 8: Http2Stream 123 [Http2Session client]: shutting down writable on _final
+2023-11-23T17:47:46.547120049Z Hello, World! (From curl)

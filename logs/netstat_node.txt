@@ -1,0 +1,462 @@
+Thu Nov 23 17:46:39 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:40 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:41 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:42 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:43 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:44 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:45 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:46 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:47 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:48 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:49 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      0 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:50 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0  14114 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (0.15/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:51 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:52506      143.244.220.150:3001    SYN_SENT    95/curl              on (0.31/0/0)
+tcp        0  14114 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (0.35/0/2)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:52 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0  28228 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (1.00/0/3)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:53 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:52518      143.244.220.150:3001    SYN_SENT    104/curl             on (0.16/0/0)
+tcp        0  42342 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (0.00/0/3)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:54 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0  56456 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (2.24/0/4)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:55 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0  70570 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (1.23/0/4)
+tcp        0      1 192.168.48.2:54750      143.244.220.150:3001    SYN_SENT    113/curl             on (0.17/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:56 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0  84684 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (0.21/0/4)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:57 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:54766      143.244.220.150:3001    SYN_SENT    122/curl             on (0.17/0/0)
+tcp        0  98798 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (5.68/0/5)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:58 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 112912 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (4.67/0/5)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:46:59 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:54782      143.244.220.150:3001    SYN_SENT    131/curl             on (0.17/0/0)
+tcp        0 127026 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (3.65/0/5)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:00 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (2.63/0/5)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:01 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:54798      143.244.220.150:3001    SYN_SENT    140/curl             on (0.18/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (1.62/0/5)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:02 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (0.60/0/5)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:03 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (12.54/0/6)
+tcp        0      1 192.168.48.2:54812      143.244.220.150:3001    SYN_SENT    149/curl             on (0.19/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:04 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (11.53/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:05 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (10.53/0/6)
+tcp        0      1 192.168.48.2:32918      143.244.220.150:3001    SYN_SENT    158/curl             on (0.19/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:06 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (9.52/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:07 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (8.51/0/6)
+tcp        0      1 192.168.48.2:32922      143.244.220.150:3001    SYN_SENT    167/curl             on (0.22/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:08 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (7.50/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:09 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:32932      143.244.220.150:3001    SYN_SENT    176/curl             on (0.20/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (6.48/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:10 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (5.46/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:11 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (4.45/0/6)
+tcp        0      1 192.168.48.2:32938      143.244.220.150:3001    SYN_SENT    185/curl             on (0.20/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:12 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (3.43/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:13 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (2.41/0/6)
+tcp        0      1 192.168.48.2:32950      143.244.220.150:3001    SYN_SENT    194/curl             on (0.19/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:14 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (1.40/0/6)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:15 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0 130572 192.168.32.3:48344      192.168.32.2:3001       ESTABLISHED 8/node               probe (0.38/0/6)
+tcp        0      1 192.168.48.2:42322      143.244.220.150:3001    SYN_SENT    203/curl             on (0.19/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:16 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:17 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:42336      143.244.220.150:3001    SYN_SENT    212/curl             on (0.20/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:18 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:19 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:42348      143.244.220.150:3001    SYN_SENT    221/curl             on (0.20/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:20 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:21 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:42358      143.244.220.150:3001    SYN_SENT    230/curl             on (0.21/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:22 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:23 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:42364      143.244.220.150:3001    SYN_SENT    239/curl             on (0.23/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:24 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:25 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:51498      143.244.220.150:3001    SYN_SENT    248/curl             on (0.23/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:26 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:27 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+tcp        0      1 192.168.48.2:51508      143.244.220.150:3001    SYN_SENT    257/curl             on (0.22/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:28 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:29 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:30 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:31 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:32 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:33 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:34 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:35 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:36 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:37 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:38 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:39 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:40 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:41 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:42 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:43 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:44 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:45 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
+Thu Nov 23 17:47:46 UTC 2023
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+tcp        0      0 0.0.0.0:9228            0.0.0.0:*               LISTEN      8/node               off (0.00/0/0)
+tcp        0      0 127.0.0.11:36115        0.0.0.0:*               LISTEN      -                    off (0.00/0/0)
+udp        0      0 127.0.0.11:54196        0.0.0.0:*                           -                    off (0.00/0/0)
