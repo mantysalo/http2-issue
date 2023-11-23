@@ -1,0 +1,489 @@
+2023-11-23T18:07:26.837366221Z Hello, World! (From curl)
+2023-11-23T18:07:26.840706179Z Debugger listening on ws://0.0.0.0:9228/35e4048f-c588-4037-a66a-c97fc5b2fc61
+2023-11-23T18:07:26.840716054Z For help, see: https://nodejs.org/en/docs/inspector
+2023-11-23T18:07:26.889397262Z TLS 8: client _init handle? true
+2023-11-23T18:07:26.889555471Z NET 8: pipe false undefined
+2023-11-23T18:07:26.892917721Z NET 8: connect: find host http2-server
+2023-11-23T18:07:26.893456346Z NET 8: connect: dns options { family: undefined, hints: 32 }
+2023-11-23T18:07:26.893461596Z NET 8: connect: autodetecting
+2023-11-23T18:07:26.895255512Z HTTP2 8: Http2Session client: created
+2023-11-23T18:07:26.895439221Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:26.895822887Z TLS 8: client initRead handle? true buffered? false
+2023-11-23T18:07:26.895833137Z NET 8: _read - n 16384 isConnecting? true hasHandle? true
+2023-11-23T18:07:26.896010471Z NET 8: _read wait for connection
+2023-11-23T18:07:26.896325637Z (node:8) Warning: Setting the NODE_DEBUG environment variable to 'http2' can expose sensitive data (such as passwords, tokens and authentication headers) in the resulting log.
+2023-11-23T18:07:26.896330429Z (Use `node --trace-warnings ...` to show where the warning was created)
+2023-11-23T18:07:26.896958554Z NET 8: connect/multiple: only one address found, switching back to single connection
+2023-11-23T18:07:26.896962304Z NET 8: connect: attempting to connect to 192.168.32.2:3001 (addressType: 4)
+2023-11-23T18:07:26.897134096Z NET 8: afterConnect
+2023-11-23T18:07:26.897139971Z TLS 8: client _start handle? true connecting? false requestOCSP? false
+2023-11-23T18:07:26.897313804Z NET 8: _read - n 16384 isConnecting? false hasHandle? true
+2023-11-23T18:07:26.897321971Z NET 8: Socket._handle.readStart
+2023-11-23T18:07:26.898559054Z TLS 8: client onhandshakedone
+2023-11-23T18:07:26.898562721Z TLS 8: client _finishInit handle? true alpn h2 servername http2-server
+2023-11-23T18:07:26.898620804Z TLS 8: client emit secureConnect. rejectUnauthorized: false, authorizationError: DEPTH_ZERO_SELF_SIGNED_CERT
+2023-11-23T18:07:26.898625304Z HTTP2 8: Http2Session client: setting up session handle
+2023-11-23T18:07:26.898749637Z HTTP2 8: Http2Session client: sending settings
+2023-11-23T18:07:26.898753054Z HTTP2 8: Http2Session client: submitting settings
+2023-11-23T18:07:26.898754721Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:26.898809262Z HTTP2 8: Http2Stream 1 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:26.899473054Z HTTP2 8: Http2Session client: settings received
+2023-11-23T18:07:26.899494971Z HTTP2 8: Http2Stream 1 [Http2Session client]: headers received
+2023-11-23T18:07:26.899497929Z HTTP2 8: Http2Stream 1 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:26.899926929Z node http2 body: Hello, World!
+2023-11-23T18:07:26.899947054Z HTTP2 8: Http2Stream 1 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:26.900096887Z HTTP2 8: Http2Stream 1 [Http2Session client]: destroying stream
+2023-11-23T18:07:27.866397804Z Hello, World! (From curl)
+2023-11-23T18:07:28.004680221Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:28.005639971Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:28.005723138Z HTTP2 8: Http2Stream 3 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:28.010171721Z HTTP2 8: Http2Stream 3 [Http2Session client]: headers received
+2023-11-23T18:07:28.010241888Z HTTP2 8: Http2Stream 3 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:28.011314721Z node http2 body: Hello, World!
+2023-11-23T18:07:28.011385930Z HTTP2 8: Http2Stream 3 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:28.011819221Z HTTP2 8: Http2Stream 3 [Http2Session client]: destroying stream
+2023-11-23T18:07:28.899477638Z Hello, World! (From curl)
+2023-11-23T18:07:29.113776472Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:29.114073138Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:29.114481055Z HTTP2 8: Http2Stream 5 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:29.117874472Z HTTP2 8: Http2Stream 5 [Http2Session client]: headers received
+2023-11-23T18:07:29.117918680Z HTTP2 8: Http2Stream 5 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:29.118388513Z node http2 body: Hello, World!
+2023-11-23T18:07:29.118641680Z HTTP2 8: Http2Stream 5 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:29.118655347Z HTTP2 8: Http2Stream 5 [Http2Session client]: destroying stream
+2023-11-23T18:07:29.934658958Z Hello, World! (From curl)
+2023-11-23T18:07:30.219729041Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:30.220240583Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:30.220330541Z HTTP2 8: Http2Stream 7 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:30.222863375Z HTTP2 8: Http2Stream 7 [Http2Session client]: headers received
+2023-11-23T18:07:30.222913833Z HTTP2 8: Http2Stream 7 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:30.223578083Z node http2 body: Hello, World!
+2023-11-23T18:07:30.223666333Z HTTP2 8: Http2Stream 7 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:30.223681083Z HTTP2 8: Http2Stream 7 [Http2Session client]: destroying stream
+2023-11-23T18:07:30.975878750Z Hello, World! (From curl)
+2023-11-23T18:07:31.324076584Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:31.325121375Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:31.325770042Z HTTP2 8: Http2Stream 9 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:31.328600625Z HTTP2 8: Http2Stream 9 [Http2Session client]: headers received
+2023-11-23T18:07:31.328654417Z HTTP2 8: Http2Stream 9 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:31.329779375Z node http2 body: Hello, World!
+2023-11-23T18:07:31.329871875Z HTTP2 8: Http2Stream 9 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:31.330559000Z HTTP2 8: Http2Stream 9 [Http2Session client]: destroying stream
+2023-11-23T18:07:32.013918417Z Hello, World! (From curl)
+2023-11-23T18:07:32.430509126Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:32.431165001Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:32.431235876Z HTTP2 8: Http2Stream 11 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:32.432267542Z HTTP2 8: Http2Stream 11 [Http2Session client]: headers received
+2023-11-23T18:07:32.432288917Z HTTP2 8: Http2Stream 11 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:32.432743001Z HTTP2 8: Http2Stream 11 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:32.432751917Z node http2 body: Hello, World!
+2023-11-23T18:07:32.433025917Z HTTP2 8: Http2Stream 11 [Http2Session client]: destroying stream
+2023-11-23T18:07:33.046298751Z Hello, World! (From curl)
+2023-11-23T18:07:33.534427210Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:33.534868710Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:33.535102668Z HTTP2 8: Http2Stream 13 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:33.537768043Z HTTP2 8: Http2Stream 13 [Http2Session client]: headers received
+2023-11-23T18:07:33.537802918Z HTTP2 8: Http2Stream 13 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:33.538155001Z node http2 body: Hello, World!
+2023-11-23T18:07:33.538209418Z HTTP2 8: Http2Stream 13 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:33.538223501Z HTTP2 8: Http2Stream 13 [Http2Session client]: destroying stream
+2023-11-23T18:07:34.083541210Z Hello, World! (From curl)
+2023-11-23T18:07:34.639654627Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:34.641680710Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:34.641790752Z HTTP2 8: Http2Stream 15 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:34.644831502Z HTTP2 8: Http2Stream 15 [Http2Session client]: headers received
+2023-11-23T18:07:34.644885918Z HTTP2 8: Http2Stream 15 [Http2Session client]: emitting stream 'response' event
+2023-11-23T18:07:34.645646085Z node http2 body: Hello, World!
+2023-11-23T18:07:34.645665627Z HTTP2 8: Http2Stream 15 [Http2Session client]: closed with code 0, closed false, readable false
+2023-11-23T18:07:34.645757793Z HTTP2 8: Http2Stream 15 [Http2Session client]: destroying stream
+2023-11-23T18:07:35.107823044Z Hello, World! (From curl)
+2023-11-23T18:07:35.743402627Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:35.744168419Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:35.744451419Z HTTP2 8: Http2Stream 17 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:36.848163378Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:36.848580128Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:36.848804586Z HTTP2 8: Http2Stream 19 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:37.138726670Z  (From curl)
+2023-11-23T18:07:37.950274795Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:37.950366837Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:37.950372878Z HTTP2 8: Http2Stream 21 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:39.051564879Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:39.051648837Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:39.051655296Z HTTP2 8: Http2Stream 23 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:39.169964837Z  (From curl)
+2023-11-23T18:07:40.153625254Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:40.153743963Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:40.153750796Z HTTP2 8: Http2Stream 25 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:41.181430255Z  (From curl)
+2023-11-23T18:07:41.255232838Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:41.255445755Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:41.255458838Z HTTP2 8: Http2Stream 27 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:42.358052089Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:42.358108380Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:42.358210547Z HTTP2 8: Http2Stream 29 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:43.207290048Z  (From curl)
+2023-11-23T18:07:43.463723214Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:43.463906464Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:43.463925048Z HTTP2 8: Http2Stream 31 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:44.566861173Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:44.567033423Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:44.567051798Z HTTP2 8: Http2Stream 33 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:45.242572340Z  (From curl)
+2023-11-23T18:07:45.672287715Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:45.672461507Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:45.672485424Z HTTP2 8: Http2Stream 35 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:46.777589758Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:46.777824924Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:46.777841716Z HTTP2 8: Http2Stream 37 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:47.279335258Z  (From curl)
+2023-11-23T18:07:47.880384591Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:47.880540008Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:47.880699883Z HTTP2 8: Http2Stream 39 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:48.984390925Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:48.984709509Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:48.984737050Z HTTP2 8: Http2Stream 41 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:49.315895884Z  (From curl)
+2023-11-23T18:07:50.086495926Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:50.086880467Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:50.086914884Z HTTP2 8: Http2Stream 43 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:51.191627635Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:51.191773010Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:51.192108260Z HTTP2 8: Http2Stream 45 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:51.354721176Z  (From curl)
+2023-11-23T18:07:52.295074094Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:52.296408802Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:52.296455552Z HTTP2 8: Http2Stream 47 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:53.389363761Z  (From curl)
+2023-11-23T18:07:53.398608469Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:53.398679052Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:53.398690469Z HTTP2 8: Http2Stream 49 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:54.500223970Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:54.500368261Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:54.500549136Z HTTP2 8: Http2Stream 51 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:55.422339095Z  (From curl)
+2023-11-23T18:07:55.607964762Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:55.608343720Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:55.608377220Z HTTP2 8: Http2Stream 53 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:56.712954971Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:56.713143554Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:56.713477137Z HTTP2 8: Http2Stream 55 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:57.433565679Z  (From curl)
+2023-11-23T18:07:57.818956763Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:57.819538888Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:57.819581346Z HTTP2 8: Http2Stream 57 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:58.924864472Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:07:58.925061972Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:07:58.925242222Z HTTP2 8: Http2Stream 59 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:07:59.461915430Z  (From curl)
+2023-11-23T18:08:00.030003541Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:00.030146625Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:08:00.030671875Z HTTP2 8: Http2Stream 61 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:08:01.134945042Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:01.135168125Z HTTP2 8: Http2Session client: connected, initializing request
+2023-11-23T18:08:01.135190417Z HTTP2 8: Http2Stream 63 [Http2Session client]: shutting down writable on _final
+2023-11-23T18:08:01.491773292Z  (From curl)
+2023-11-23T18:08:02.140838751Z NET 8: destroy
+2023-11-23T18:08:02.140925876Z NET 8: close
+2023-11-23T18:08:02.140931792Z NET 8: close handle
+2023-11-23T18:08:02.141684084Z HTTP2 8: Http2Session <invalid>: socket error [read ETIMEDOUT]
+2023-11-23T18:08:02.141707667Z HTTP2 8: Http2Session client: destroying
+2023-11-23T18:08:02.144188667Z HTTP2 8: Http2Session client: start closing/destroying Error: read ETIMEDOUT
+2023-11-23T18:08:02.144242667Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.144289709Z   errno: -110,
+2023-11-23T18:08:02.144293834Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.144305584Z   syscall: 'read'
+2023-11-23T18:08:02.144342917Z }
+2023-11-23T18:08:02.144346792Z HTTP2 8: Http2Stream 17 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144355876Z HTTP2 8: Http2Stream 19 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144359667Z HTTP2 8: Http2Stream 21 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144362917Z HTTP2 8: Http2Stream 23 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144366251Z HTTP2 8: Http2Stream 25 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144370292Z HTTP2 8: Http2Stream 27 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144373792Z HTTP2 8: Http2Stream 29 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144376959Z HTTP2 8: Http2Stream 31 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144380417Z HTTP2 8: Http2Stream 33 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144573626Z HTTP2 8: Http2Stream 35 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144583501Z HTTP2 8: Http2Stream 37 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144587001Z HTTP2 8: Http2Stream 39 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144590584Z HTTP2 8: Http2Stream 41 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144593834Z HTTP2 8: Http2Stream 43 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144597001Z HTTP2 8: Http2Stream 45 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144629667Z HTTP2 8: Http2Stream 47 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144634084Z HTTP2 8: Http2Stream 49 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144678167Z HTTP2 8: Http2Stream 51 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144683042Z HTTP2 8: Http2Stream 53 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144686709Z HTTP2 8: Http2Stream 55 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144907001Z HTTP2 8: Http2Stream 57 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144915584Z HTTP2 8: Http2Stream 59 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144918834Z HTTP2 8: Http2Stream 61 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.144922084Z HTTP2 8: Http2Stream 63 [Http2Session client]: destroying stream
+2023-11-23T18:08:02.146026667Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.146050959Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.146055126Z   errno: -110,
+2023-11-23T18:08:02.146058542Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.146061542Z   syscall: 'read'
+2023-11-23T18:08:02.146065917Z }
+2023-11-23T18:08:02.146199292Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.146309792Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.146332542Z   errno: -110,
+2023-11-23T18:08:02.146336501Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.146339626Z   syscall: 'read'
+2023-11-23T18:08:02.146342542Z }
+2023-11-23T18:08:02.146346167Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.146349501Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.146352501Z   errno: -110,
+2023-11-23T18:08:02.146355376Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.146358501Z   syscall: 'read'
+2023-11-23T18:08:02.146361292Z }
+2023-11-23T18:08:02.146529167Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.146542834Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.146546167Z   errno: -110,
+2023-11-23T18:08:02.146549167Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.146552126Z   syscall: 'read'
+2023-11-23T18:08:02.146555209Z }
+2023-11-23T18:08:02.146558084Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.146561001Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.146564042Z   errno: -110,
+2023-11-23T18:08:02.146566917Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.146569751Z   syscall: 'read'
+2023-11-23T18:08:02.146572584Z }
+2023-11-23T18:08:02.146988084Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.147007084Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.147012917Z   errno: -110,
+2023-11-23T18:08:02.147016209Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.147019334Z   syscall: 'read'
+2023-11-23T18:08:02.147022584Z }
+2023-11-23T18:08:02.147185542Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.147198959Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.147202376Z   errno: -110,
+2023-11-23T18:08:02.147205626Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.147208584Z   syscall: 'read'
+2023-11-23T18:08:02.147211459Z }
+2023-11-23T18:08:02.147862834Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.147892084Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.147896209Z   errno: -110,
+2023-11-23T18:08:02.147933126Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.147938042Z   syscall: 'read'
+2023-11-23T18:08:02.147941376Z }
+2023-11-23T18:08:02.147944376Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.147947376Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.147972001Z   errno: -110,
+2023-11-23T18:08:02.147975792Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.147978709Z   syscall: 'read'
+2023-11-23T18:08:02.147981626Z }
+2023-11-23T18:08:02.147984792Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.147987792Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.147990792Z   errno: -110,
+2023-11-23T18:08:02.147993626Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.147996834Z   syscall: 'read'
+2023-11-23T18:08:02.147999709Z }
+2023-11-23T18:08:02.148002584Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148005501Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148008792Z   errno: -110,
+2023-11-23T18:08:02.148011626Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148014501Z   syscall: 'read'
+2023-11-23T18:08:02.148017751Z }
+2023-11-23T18:08:02.148490792Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148510709Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148514292Z   errno: -110,
+2023-11-23T18:08:02.148517334Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148520334Z   syscall: 'read'
+2023-11-23T18:08:02.148523334Z }
+2023-11-23T18:08:02.148526209Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148529251Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148532334Z   errno: -110,
+2023-11-23T18:08:02.148535542Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148538542Z   syscall: 'read'
+2023-11-23T18:08:02.148541459Z }
+2023-11-23T18:08:02.148544376Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148547334Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148550459Z   errno: -110,
+2023-11-23T18:08:02.148553376Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148556334Z   syscall: 'read'
+2023-11-23T18:08:02.148559292Z }
+2023-11-23T18:08:02.148562751Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148565709Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148568751Z   errno: -110,
+2023-11-23T18:08:02.148571626Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148574542Z   syscall: 'read'
+2023-11-23T18:08:02.148577459Z }
+2023-11-23T18:08:02.148624959Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148634959Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148670167Z   errno: -110,
+2023-11-23T18:08:02.148674126Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148677417Z   syscall: 'read'
+2023-11-23T18:08:02.148680376Z }
+2023-11-23T18:08:02.148683292Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148686417Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148689792Z   errno: -110,
+2023-11-23T18:08:02.148692667Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148695792Z   syscall: 'read'
+2023-11-23T18:08:02.148698667Z }
+2023-11-23T18:08:02.148703459Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148706542Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148709501Z   errno: -110,
+2023-11-23T18:08:02.148712376Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148715209Z   syscall: 'read'
+2023-11-23T18:08:02.148718042Z }
+2023-11-23T18:08:02.148721709Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148724667Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148727667Z   errno: -110,
+2023-11-23T18:08:02.148730542Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148733334Z   syscall: 'read'
+2023-11-23T18:08:02.148736251Z }
+2023-11-23T18:08:02.148739084Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148742084Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148745042Z   errno: -110,
+2023-11-23T18:08:02.148747917Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148750792Z   syscall: 'read'
+2023-11-23T18:08:02.148753584Z }
+2023-11-23T18:08:02.148756417Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148759376Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148762417Z   errno: -110,
+2023-11-23T18:08:02.148765292Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148768167Z   syscall: 'read'
+2023-11-23T18:08:02.148771042Z }
+2023-11-23T18:08:02.148773876Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148776792Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.148779834Z   errno: -110,
+2023-11-23T18:08:02.148782709Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.148785584Z   syscall: 'read'
+2023-11-23T18:08:02.148788417Z }
+2023-11-23T18:08:02.148791709Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.148993751Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.149000417Z   errno: -110,
+2023-11-23T18:08:02.149003792Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.149006751Z   syscall: 'read'
+2023-11-23T18:08:02.149009792Z }
+2023-11-23T18:08:02.149014084Z node http2 error: Error: read ETIMEDOUT
+2023-11-23T18:08:02.149017251Z     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20) {
+2023-11-23T18:08:02.149020292Z   errno: -110,
+2023-11-23T18:08:02.149023209Z   code: 'ETIMEDOUT',
+2023-11-23T18:08:02.149026126Z   syscall: 'read'
+2023-11-23T18:08:02.149029167Z }
+2023-11-23T18:08:02.150022042Z NET 8: emit close
+2023-11-23T18:08:02.150054792Z HTTP2 8: Http2Session client: socket closed
+2023-11-23T18:08:02.238341709Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:02.240982751Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:02.241029709Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:02.241039751Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:02.241048626Z     at new Promise (<anonymous>)
+2023-11-23T18:08:02.241058042Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:02.241066042Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:02.241074042Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:02.241081792Z }
+2023-11-23T18:08:03.343027126Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:03.343922043Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:03.343959834Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:03.343970418Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:03.343979251Z     at new Promise (<anonymous>)
+2023-11-23T18:08:03.343988751Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:03.343996751Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:03.344004543Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:03.344012251Z }
+2023-11-23T18:08:03.524394585Z  (From curl)
+2023-11-23T18:08:04.449544168Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:04.450182377Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:04.450210627Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:04.450218710Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:04.450225002Z     at new Promise (<anonymous>)
+2023-11-23T18:08:04.450307210Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:04.450317585Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:04.450323335Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:04.450328835Z }
+2023-11-23T18:08:05.554722044Z  (From curl)
+2023-11-23T18:08:05.554817211Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:05.555741711Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:05.555778377Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:05.555788336Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:05.555796752Z     at new Promise (<anonymous>)
+2023-11-23T18:08:05.555805586Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:05.555815169Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:05.555823127Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:05.555830919Z }
+2023-11-23T18:08:06.659679128Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:06.660415128Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:06.660440836Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:06.660445211Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:06.660449044Z     at new Promise (<anonymous>)
+2023-11-23T18:08:06.660453461Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:06.660457044Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:06.660460544Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:06.660466503Z }
+2023-11-23T18:08:07.592154545Z  (From curl)
+2023-11-23T18:08:07.761758878Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:07.762401253Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:07.762427212Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:07.762431920Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:07.762435420Z     at new Promise (<anonymous>)
+2023-11-23T18:08:07.762439753Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:07.762443045Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:07.762446212Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:07.762449337Z }
+2023-11-23T18:08:08.868189962Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:08.868851045Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:08.868875420Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:08.868908087Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:08.868912254Z     at new Promise (<anonymous>)
+2023-11-23T18:08:08.868915837Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:08.868918837Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:08.868921962Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:08.868926379Z }
+2023-11-23T18:08:09.621234504Z  (From curl)
+2023-11-23T18:08:09.974098629Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:09.975492338Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:09.975536504Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:09.975547379Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:09.975556171Z     at new Promise (<anonymous>)
+2023-11-23T18:08:09.975565463Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:09.975573963Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:09.975581879Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:09.975589671Z }
+2023-11-23T18:08:11.076163630Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:11.077213213Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:11.077292546Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:11.077308505Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:11.077321380Z     at new Promise (<anonymous>)
+2023-11-23T18:08:11.077331546Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:11.077339630Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:11.077347546Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:11.077356921Z }
+2023-11-23T18:08:11.650070172Z  (From curl)
+2023-11-23T18:08:12.184155464Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:12.185044464Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:12.185072422Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:12.185078339Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:12.185082755Z     at new Promise (<anonymous>)
+2023-11-23T18:08:12.185088130Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:12.185092339Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:12.185096672Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:12.185100630Z }
+2023-11-23T18:08:13.287493214Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:13.288104798Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:13.288197173Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:13.288208256Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:13.288217173Z     at new Promise (<anonymous>)
+2023-11-23T18:08:13.288226464Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:13.288234631Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:13.288242631Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:13.288287089Z }
+2023-11-23T18:08:13.662412798Z  (From curl)
+2023-11-23T18:08:14.391281381Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:14.392055756Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:14.392093173Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:14.392105090Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:14.392114215Z     at new Promise (<anonymous>)
+2023-11-23T18:08:14.392124381Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:14.392132923Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:14.392147298Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:14.392155381Z }
+2023-11-23T18:08:15.492347007Z HTTP2 8: Http2Session client: initiating request
+2023-11-23T18:08:15.493091132Z node http2 error: Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+2023-11-23T18:08:15.493104299Z     at ClientHttp2Session.request (node:internal/http2/core:1734:13)
+2023-11-23T18:08:15.493109257Z     at file:///app/node-http2.js:11:28
+2023-11-23T18:08:15.493113965Z     at new Promise (<anonymous>)
+2023-11-23T18:08:15.493119007Z     at http2Request (file:///app/node-http2.js:10:10)
+2023-11-23T18:08:15.493123340Z     at file:///app/node-http2.js:36:3 {
+2023-11-23T18:08:15.493127799Z   code: 'ERR_HTTP2_INVALID_SESSION'
+2023-11-23T18:08:15.493132590Z }
+2023-11-23T18:08:15.688475757Z  (From curl)
