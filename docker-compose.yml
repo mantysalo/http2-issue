@@ -4,28 +4,13 @@ services:
     build: .
     environment:
       - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
-    command: "node --inspect=0.0.0.0:9228 --nolazy node-http2.js"
+    command: >
+      bash -c 'node --inspect=0.0.0.0:9228 --nolazy node-http2.js & while true; do curl https://http2-server:3001 -k --http2 --silent --max-time 1 --write-out " (From curl)\n"; sleep 1; done & while true; do date && netstat -tulpano; sleep 1; done >> netstat_node.txt'
     sysctls:
       - net.ipv4.tcp_retries2=6 # This is to make the error appear faster. If removed, the error takes rougly 16 minutes to appear.
     privileged: true # This is required to be able to set the sysctl
     ports:
       - "9228:9228"
-    networks:
-      - private
-      - public
-    depends_on:
-      http2-server:
-        condition: service_healthy
-  http2-wrapper-client:
-    build: .
-    environment:
-      - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
-    command: "node --inspect=0.0.0.0:9229 --nolazy http2-wrapper.js"
-    sysctls:
-      - net.ipv4.tcp_retries2=6 # This is to make the error appear faster. If removed, the error takes rougly 16 minutes to appear.
-    privileged: true # This is required to be able to set the sysctl
-    ports:
-      - "9229:9229"
     networks:
       - private
       - public
