@@ -4,6 +4,7 @@ services:
     build: .
     environment:
       - NODE_DEBUG=net,http,http2,https,tls,tls_wrap
+      - NODE_DEBUG_NATIVE=http2,tls
     command: >
       bash -c 'node --inspect=0.0.0.0:9228 --nolazy node-http2.js & while true; do curl https://http2-server:3001 -k --http2 --silent --max-time 1 --write-out " (From curl)\n"; sleep 1; done & while true; do date && netstat -tulpano; sleep 1; done >> netstat_node.txt'
     sysctls:
