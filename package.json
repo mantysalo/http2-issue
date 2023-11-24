@@ -8,7 +8,7 @@
     "start": "docker compose up --build --force-recreate; docker-compose down -v",
     "disconnect": "docker network disconnect http2-issue_public http2-issue-node-http2-client-1",
     "connect": "docker network connect http2-issue_public http2-issue-node-http2-client-1",
-    "logs": "docker logs http2-issue-node-http2-client-1"
+    "logs": "docker compose logs --no-log-prefix --timestamps node-http2-client"
   },
   "author": "",
   "license": "ISC"
